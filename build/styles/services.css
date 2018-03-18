@@ -5,7 +5,7 @@
   .services h2 {
     color: #fff;
     display: block;
-    width: 75%;
+    width: 80%;
     margin: 0 auto 30px auto;
     padding-top: 20px;
     position: relative; }
@@ -18,7 +18,7 @@
       height: 2px;
       background-color: #fff; }
   .services .services-wrapper {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between; }

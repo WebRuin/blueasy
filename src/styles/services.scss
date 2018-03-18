@@ -1,0 +1,62 @@
+@import 'colors';
+
+
+
+.services {
+  margin: -20px 0;
+  padding-bottom: 2rem; 
+  background: $main-highlight;
+
+  h2 {
+    color: $main-text-color;
+    display: block;
+    width: 75%;
+    margin: 0 auto 30px auto;
+    padding-top: 20px;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: '';
+      bottom: -5px;
+      left: 0px;
+      width: 6%;
+      height: 2px;
+      background-color: $main-text-color;
+    }
+  }
+  .services-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .service {
+      width: 22%;
+      padding: 10px;
+      // text-align: center;
+      color: $main-text-color;
+      &:hover i{
+        margin-left: 5rem;
+      }
+
+      i {
+        font-size: 2.5rem;
+        transition:all 0.5s ease-in-out;
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 1.75rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 15px 0;
+      }
+
+      p {
+        font-size: 0.8rem;
+        text-align: left;
+      }
+    }
+  }
+}
